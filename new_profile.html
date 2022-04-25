@@ -39,9 +39,10 @@
     </nav>
 
     <form id="employee-information-main">
+      <h2 style="color: darkblue;">Employee Information & Immigration Status</h2>
+
       <label for="formControlInput" class="form-label">Full Name</label>
       <input type="text" class="form-control" id="formControlInput" placeholder="Full name is required">
-      <br>
 
       <label for="formControlInput" class="form-label">ID Number</label>
       <input type="text" class="form-control" id="formControlInput" placeholder="Enter ID Number">
@@ -50,11 +51,13 @@
     <form id="employee-information-secondary">
       <label for="formControlInput" class="form-label">Email Address</label>
       <input type="email" class="form-control" id="formControlInput" placeholder="name@domain.com">
-      
     
       <label for="formControlInput" class="form-label">Job Position</label>
       <input type="text" class="form-control" id="formControlInput" placeholder="Job Position / Career Level">
+      <br>
       
+      <h2 style="color: darkblue;">Visa Types and Files</h2>
+
       <label for="input-group mb-2" class="form-label">Please select your Visa Type</label>
       <div class="input-group mb-2">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">VISA TYPE</button>
@@ -65,6 +68,10 @@
           <li><a class="dropdown-item" href="#">EAD</a></li>
         </ul>
         <input type="text" class="form-control" aria-label="Text input with dropdown button">
+      </div>
+      <div>
+        <label for="formFile" class="form-label">File Uploader (Supporting Documents)</label>
+        <input class="form-control" type="file" id="formFile">
       </div>
       
     </form>

@@ -36,6 +36,10 @@ body {
     margin: 0;
 }
 
+.nav-item {
+    font-size: larger;
+}
+
 .logo {
     width: 4.7em;
     float: left;
