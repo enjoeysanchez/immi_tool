@@ -10,13 +10,18 @@ body {
     background-color: whitesmoke;
 }
 
-/* FORMULARIO */
+/* -------------------------------- FORM AND EMPLOYEE INFO ---------------------------------------- */
 #employee-information-main {
     border: 1px solid black;
     padding: 1em;
 }
+
 #employee-information-secondary {
     padding: 1em;
+}
+
+.nav-bar-main {
+    min-width: 900px;
 }
 
 .main-title {
@@ -31,9 +36,17 @@ body {
     margin: 0;
 }
 
+.logo {
+    width: 4.7em;
+    float: left;
+    margin-left: 0.7em;
+    margin-right: 0.5em;
+}
+
 .form-control {
     max-width: 500px;
 }
+
 .form-label {
     font-weight: bolder;
 }
@@ -49,12 +62,15 @@ body {
     margin-left: 1em;
     font-weight: bolder;
 }
+
+/* -------------------------------- MAIN MENU CARDS ------------------------------------------------ */
 .card-img-top {
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
     margin: auto;
     padding: 1em;
 }
+
 .card {
     width: 320px;
     height: 320px;
@@ -67,6 +83,7 @@ body {
   48.5px 38.6px 62.5px rgba(0, 0, 0, 0.096),
   118px 94px 174px rgba(0, 0, 0, 0.13);
 }
+
 .card:hover {
     cursor: pointer;
     background-color: rgb(176, 176, 233);
@@ -80,18 +97,22 @@ body {
     align-self: auto;
     border-radius: 10px 10px 0 0;
 }
+
 .col {
     width: 350px;
     height: 350px;
 }
+
 .card-img-top {
     width: 290px;
     height: 290px;
 }
+
 .container-fluid {
     padding-left: 2em;
 }
-/* FOOTER */
+
+/* -------------------------------- FOOTER ---------------------------------------------------- */
 footer {
     display: inline;
     text-align: right;
@@ -99,6 +120,7 @@ footer {
     bottom:0;
     width:100%;
 }
+
 .footer_container {
     background-color: rgb(17, 17, 17);
     height: 4em;
