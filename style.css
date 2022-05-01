@@ -12,16 +12,22 @@ body {
 
 /* -------------------------------- FORM AND EMPLOYEE INFO ---------------------------------------- */
 #employee-information-main {
-    border: 1px solid black;
-    padding: 1em;
+    padding: 2em;
 }
 
 #employee-information-secondary {
-    padding: 1em;
+    padding: 2em;
+}
+
+#employee-information-main h2 {
+    margin-top: 0.2em;    
+    font-weight: bolder;
+    color: darkblue;
 }
 
 .nav-bar-main {
     min-width: 900px;
+    display: inline;
 }
 
 .main-title {
@@ -65,6 +71,7 @@ body {
     margin-top: 0.7em;
     margin-left: 1em;
     font-weight: bolder;
+    color: darkblue;
 }
 
 /* -------------------------------- MAIN MENU CARDS ------------------------------------------------ */
@@ -138,4 +145,12 @@ footer {
     color: white;
     padding: 0.7rem;
     margin-right: 20px;
+}
+
+.footer_item_2 {
+    display: inline-flex;
+    color: white;
+    float: right;
+    margin-right: 1em;
+    padding: 0.7rem;
 }
